@@ -1,6 +1,6 @@
 # Iryna Prybytkova
 ##### _Junior Software Engineer_
-![myfoto](myfoto1.jpg)
+![myfoto](img/myfoto1.jpg)
 ### Contacts:
 **_Phone:_** +375(29)371-48-68
 
