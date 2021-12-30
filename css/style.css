@@ -23,6 +23,9 @@ body {
 .footer {
     border: 10px solid yellow;
 }
+section {
+    border: 10px solid sandybrown;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -43,6 +46,11 @@ body {
 }
 .main-container {
     display: flex;
+    flex-wrap: wrap;
+
+}
+.section {
+    width: 50%;
 }
 .main-section {
     display: flex;
