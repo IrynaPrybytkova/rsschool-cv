@@ -1,5 +1,5 @@
 # Iryna Prybytkova
-##### _Junior Software Engineer_
+##### _Junior Front-End Developer_
 ![myfoto](assets/img/myfoto1.jpg)
 ### Contacts:
 **_Phone:_** +375(29)371-48-68

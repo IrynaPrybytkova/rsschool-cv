@@ -41,3 +41,19 @@ body {
     font-weight: 300;
     transition: 3s;
 }
+.main-container {
+    display: flex;
+}
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 30px 30px 30px;
+}
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
