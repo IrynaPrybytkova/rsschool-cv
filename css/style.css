@@ -23,6 +23,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .header {
     background-color: #c41e3a;
 }
@@ -189,4 +190,9 @@ a.project-link {
 }
 .section-languages {
     border-bottom: none;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
