@@ -42,7 +42,7 @@
     <div class="container main-container">
         <section class="section main-section" id="profile">
             <img class="section-photo" src="assets/img/myfoto1.jpg" alt="My Photo">
-            <div class="section-title">
+            <div class="section-profile-title ">
                 <h1 class="section-title-name">Iryna Prybytkova</h1>
                 <h3 class="section-subtitle">Junior Front-End Developer</h3>
             </div>
@@ -77,22 +77,48 @@
             <h2 class="section-title">Code</h2>
             <pre class="pre">
                 <code>
-                    function factorian(n) {
-                    if (n < 0) return null;
-                    if (n >= 1) return 1;
-                    return n* factorial(n-1);
-                    }
+function pow(x, y) {<br>
+  let result = x;<br>
+  for (let i = 1; i < &lt; y; i++) {<br>
+    result *= x;<br>
+  }<br>
+  return result;<br>
+}<br>
                 </code>
             </pre>
         </section>
-        <section class="section" id="courses"></section>
-        <section class="section" id="projects"></section>
-        <section class="section" id="education"></section>
-        <section class="section" id="languages"></section>
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+                <li class="section-item">RS School Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+        </section>
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul class="section-list">
+                <li class="section-item">
+                    <a target="_blank" href="https://github.com/IrynaPrybytkova/rsschool-cv" class="project-link">RS School CV</a>
+                </li>
+            </ul>
+        </section>
+        <section class="section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Belarusian National Technical University</p>
+        </section>
+        <section class="section section-languages" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <p>English - B1 (Intermediate)</p>
+        </section>
     </div>
 </main>
 <footer class="footer">
-    <div class="container"></div>
+    <div class="container footer-container">
+        <div>
+            © 2022
+            <a target="_blank" href="https://github.com/IrynaPrybytkova" class="github nav-link">IrynaPrybytkova</a>
+        </div>
+        <a target="_blank" href="https://rs.school/js/" class="rss"></a>
+    </div>
 </footer>
 
 </body>
