@@ -39,7 +39,13 @@ body {
     font-size: 20px;
     font-weight: 300;
     color: #fff;
-    transition: 3s;
+    transition: color 0.5s;
+}
+.nav-item a:hover {
+    color: black;
+}
+.footer-container-github a:hover {
+    color: black;
 }
 .main-container {
     display: flex;
@@ -95,6 +101,10 @@ body {
     margin-bottom:10px;
     padding-left:30px;
     list-style: none;
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #c41e3a;
 }
 .section-item::before {
     content: "";
@@ -112,8 +122,11 @@ body {
     margin-bottom:10px;
     padding-left:30px;
     list-style: none;
+    transition: color 0.5s;
 }
-
+.section-contacts-item a:hover {
+    color: #c41e3a;
+}
 .section-contacts-item:before{
     content: "";
     position: absolute;
